@@ -1,0 +1,41 @@
+/* definicion a los objetos de la pagina*/
+/*color de la pagina*/
+body{
+    background-color: darkred;
+}
+/*tamaño imagenes*/
+img{
+    width: 100px;
+    height: 100px;
+}
+/* establece atrivutos de estilo para una A */
+nav a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: chartreuse;
+}
+/*definir estilos como clases*/
+
+.Titulo1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: black;
+}
+
+.DivImagen{
+    padding: 15px;
+}
+.DivFormulario{
+    background-image: url("../img/foto.jpg");
+}
+/*definicion de estilo por id*/
+#txtrut{
+    font-family: fantasy;
+    font-size: 15px;
+
+}
+#rbtEstadoCivil{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: blue
+}

@@ -19,6 +19,14 @@ function formulario(){
         }        
         
     }
-    alert("suma:"+suma);    
-    alert("Digito:"+(11-(suma % 11)));
+    var resto=(suma % 11);
+    var dv=11-resto;
+    if (dv==10) (
+        alert("k")
+    )    
+    if (dv==11) (
+        alert("0")
+    )
+    alert(dv);
+    
 }
